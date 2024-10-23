@@ -17,6 +17,7 @@ export class CharacterComponent {
 
 
   emitCharacter(): void {
+    
     console.log(this.character);
 
     if (this.character.name.length === 0) {
